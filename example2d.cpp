@@ -4,8 +4,6 @@
 #include "plot3d_io/write_xfile_2d.h"
 #include "plot3d_io/data_2d.h"
 
-
-
 template<typename T>
 class Mydata2D: public Data2D<T>{
  public:
@@ -40,4 +38,9 @@ void example2D(){
   Mydata2D<double> pressure(nx, nx);
 
   data_3d_io_q.Write("test2d", pressure, pressure, pressure, pressure);
+}
+
+int main() {
+  example2D();
+  return 0;
 }

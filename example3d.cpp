@@ -2,8 +2,6 @@
 #include "plot3d_io/write_xfile_3d.h"
 #include "plot3d_io/write_qfile_3d.h"
 
-
-
 template<typename T>
 class Mydata3D: public Data3D<T>{
  public:
@@ -40,6 +38,6 @@ void example3D() {
 }
 
 int main() {
-  example2D();
+  example3D();
   return 0;
 }

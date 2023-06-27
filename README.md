@@ -9,3 +9,19 @@ Structured Grid: The tool can process structured grid data and generate Plot3d o
 
 Head-Only Output: This tool can generate Plot3d files that only include header information. This means it generates metadata describing the data structure, boundary conditions, etc., without actual data values. This is useful for testing and debugging applications.
 
+
+## Usage
+Refer to [Adapter (refactoring.guru)](https://refactoring.guru/design-patterns/adapter)
+What you need to do is to inheritance Data2D<T>. ( Data3D<T> for 3D) 
+
+```cpp
+template<typename T>
+class YourData: public Data2D<T>{
+ public:
+  Mydata2D(int nx, int ny) : Data2D<T>(nx, ny) { }
+
+  T &operator()(int i, int j) override{
+      // TODO
+  }
+};
+```

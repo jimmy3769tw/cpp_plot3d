@@ -1,4 +1,0 @@
-"/Users/jing-ming/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/jing-ming/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/jing-ming/CLionProjects/cpp_plot3d -B /Users/jing-ming/CLionProjects/cpp_plot3d/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/jing-ming/CLionProjects/cpp_plot3d/cmake-build-debug

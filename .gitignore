@@ -1,3 +1,5 @@
-cmake-build-debug/test2d.q
-cmake-build-debug/test2d.x
-cmake-build-debug/test3d.q
+cmake-build-debug/*
+/cmake-build-debug/
+plot3d_io/data_2d.h
+.idea/*
+
